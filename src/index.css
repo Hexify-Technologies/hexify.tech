@@ -1,0 +1,172 @@
+body,
+html {
+	background-color: #fafafa;
+	color: #212121;
+	cursor: default;
+	font: 300 24px sans-serif;
+	margin: 0px;
+	width: 100%;
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+header,
+#about,
+#footerContent {
+	margin: 0px auto;
+	max-width: 1080px;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: inherit;
+}
+
+footer {
+	background-color: #424242;
+	color: #fafafa;
+	padding: 24px;
+}
+
+footer h2 {
+	color: #fafafa;
+	font: 600 24px sans-serif;
+}
+
+footer p {
+	word-wrap: break-word;
+}
+
+header {
+	padding: 24px;
+}
+
+h1 {
+	color: #2196f3;
+	font: 600 48px sans-serif;
+	text-align: center;
+}
+
+h2 {
+	color: #2196f3;
+	font: 600 60px sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #2196f3;
+	font: 600 24px sans-serif;
+}
+
+nav {
+	color: #2196f3;
+	font-weight: 600;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	padding: 6px 0px;
+}
+
+nav ul li:hover {
+	color: #0d47a1;
+}
+
+.anim {
+	opacity: 0;
+	transform: translateY(60px);
+	transition: 1s ease-out;
+}
+
+.anim.animate {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.bluer {
+	color: #0d47a1;
+}
+
+.spcl-item {
+	text-align: justify;
+	margin: 48px auto;
+	max-width: 480px;
+}
+
+#logo {
+	display: block;
+	height: 60vw;
+	margin: 60px auto 0px auto;
+	width: 60vw;
+}
+
+#about {
+	margin-bottom: 60px;
+	padding: 24px;
+}
+
+@media only screen and (min-width: 600px) {
+	h1,
+	h2 {
+		text-align: left;
+	}
+
+	#logo {
+		display: inline-block;
+		height: 36vw;
+		margin: 36px 0px;
+		max-height: 480px;
+		max-width: 480px;
+		width: 36vw;
+	}
+
+	#title {
+		display: inline-block;
+		width: 48%;
+		margin: 0px 0px auto 0px;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	h1 {
+		font: 600 72px sans-serif;
+	}
+
+	h2 {
+		font: 600 96px sans-serif;
+	}
+
+	.spcl {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.spcl-item {
+		margin: 48px 24px;
+	}
+
+	#title {
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	h1 {
+		font: 600 84px sans-serif;
+	}
+
+	h2 {
+		font: 600 120px sans-serif;
+	}
+
+	.spcl-item {
+		margin: 48px 0px;
+	}
+}
